@@ -1,0 +1,48 @@
+*{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titleHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #36454F;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #28282B;
+    color: azure;
+}
+
+.todayFiveDay {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border: #28282B;
+}
+
+.searchText {
+    color: aliceblue;
+}
+
+.fiveDay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+    .fiveDayContainer {
+        margin: 10px;
+    }
+}
