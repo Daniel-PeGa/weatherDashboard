@@ -50,7 +50,7 @@ function getHistory() {
         rowEl.append(btnEl);
 } if (!city) {
     return;
-}
+} 
 
 $('.histBtn').on("click", function (event) {
     event.preventDefault();
@@ -153,7 +153,6 @@ function getFiveDayForecast() {
 
 			var divElCard = $('<div>');
 			divElCard.attr('class', 'card text-white bg-primary mb-3 cardOne');
-			divElCard.attr('style', 'max-width: 200px;');
 			fiveForecastEl.append(divElCard);
 
 			var divElHeader = $('<div>');

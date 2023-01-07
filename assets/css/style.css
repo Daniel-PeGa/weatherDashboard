@@ -44,5 +44,41 @@ body {
 @media screen and (max-width: 1024px) {
     .fiveDayContainer {
         margin: 10px;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .colOne {
+        display: flex;
+        flex-direction: column;
+    }
+    .allContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topSide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .eachCard {
+        display: flex;
+        flex-direction: column;
+    }
+    .cardOne {
+        width: 300px;
+    }
+    .col-3 {
+        flex: 50%;
+        max-width: 37%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .col-3 {
+        flex: 50%;
+        max-width: 60%;
     }
 }
